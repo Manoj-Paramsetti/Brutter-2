@@ -210,6 +210,7 @@ Waiting to see the issues
 |_.__/|_|   \\__,_|\\__|\\__\\___|_|
 
 ''')
+    print("Disclaimer: use this script for educational purposes. The author doesn't claim any stupid thing which is done by you.")
     print("Welcome to brutter")
     print("Credits: Paramsetti Manoj")
     print('Type "help" for the help or Type "about" to know more about the project')
