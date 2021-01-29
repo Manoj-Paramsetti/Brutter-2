@@ -16,6 +16,7 @@ try:
 
 about:
  It will show a short description of this script
+
 generate:
  It will start your work
  Further input is provided in the square bracket so, check that and give the write option to generate success. I'm a lazy guy so, not able to explain more.
