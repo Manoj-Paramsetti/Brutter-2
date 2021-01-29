@@ -15,32 +15,32 @@ try:
 ========
 
 about:
- It will show a short discription of this script
+ It will show a short description of this script
 generate:
  It will start your work
- Further input is provide in square barcket. so, check that and give the write option to generate successful. I'm a lazy guy. so, not able to explain more.
+ Further input is provided in the square bracket so, check that and give the write option to generate success. I'm a lazy guy so, not able to explain more.
 
 help:
- It will show this message again so, Don't run it again. It's not bug, It's feautre
+ It will show this message again so, Don't execute it once again. It's not a bug. it is a feature
 
  ''')
     def storyTeller():
-        print('''\n\n\nBrutter is developed by Paramsetti Manoj. You can generate wordlist using this script.
+        print('''\n\n\nBrutter is developed by Paramsetti Manoj. You can generate a wordlist using this script.
 
-Disclamier:
-Use this script for educational purpose. The author doesn't claim any stupid thing which is done by you.
+Disclaimer:
+Use this script for educational purposes. The author doesn't claim any stupid thing which is done by you.
 
 How to use this program?
-It is having a command "help" which will explain you a lot about how to use this script. I'll provide a short tutorial after some days so have a touch on my github. visit my project and if you like this project then give a star. https://github.com/Manoj-Paramsetti/Brutter-2
+It is having a command "help" which will explain to you a lot about how to use this script. I'll provide a short tutorial after some days so have a touch on my Github. visit my project and if you like this project then give a star. https://github.com/Manoj-Paramsetti/Brutter-2
 
 When the project is created?
 29 Jan 2021
 
-Whether it got license?
-Yeah, Check the LICENSE file. It is MIT license
+Whether it got a license?
+Yeah, Check the LICENSE file. It is an MIT license
 
 Have you got any issues?
-Report in my repo. Visit here https://github.com/Manoj-Paramsetti/Brutter-2/issues
+Raise an issue in my repository. Visit here https://github.com/Manoj-Paramsetti/Brutter-2/issues
 Waiting to see the issues
 
 ''')
