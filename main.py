@@ -19,6 +19,7 @@ def getter():
     while(validInput != 0):
         if(Confirm.lower() in ("y","yes","yup")):
             validInput = 0
+            generate()
         elif(Confirm.lower() in ("n","no","nah")):
             validInput = 0
             getter()
