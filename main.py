@@ -48,13 +48,13 @@ Waiting to see the issues
         print("Do you want to save the file in seperate file or copy it manually[file/copy]: ")
         res = input("")
         if (res.lower() == "copy"):
-            for i in final:
+            for i in wordList:
                 print(i)
         elif(res.lower() == "exit"):
             exit()
         else:
             with open("pass.txt","a") as f:
-                for i in final:
+                for i in wordList:
                     f.write(i)
                     f.write("\n")
 
