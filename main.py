@@ -5,6 +5,8 @@ try:
         if (res.lower() == "copy"):
             for i in final:
                 print(i)
+        elif(res.lower() == "exit"):
+            exit()
         else:
             with open("pass.txt","a") as f:
                 for i in final:
@@ -22,6 +24,8 @@ try:
         if (res.lower() == "copy"):
             for i in final:
                 print(i)
+        elif(res.lower() == "exit"):
+            exit()
         else:
             with open("pass.txt","a") as f:
                 for i in final:
@@ -39,6 +43,8 @@ try:
         if (res.lower() == "copy"):
             for i in final:
                 print(i)
+        elif(res.lower() == "exit"):
+            exit()
         else:
             with open("pass.txt","a") as f:
                 for i in final:
@@ -57,6 +63,8 @@ try:
         if (res.lower() == "copy"):
             for i in final:
                 print(i)
+        elif(res.lower() == "exit"):
+            exit()
         else:
             with open("pass.txt","a") as f:
                 for i in final:
@@ -76,6 +84,8 @@ try:
         if (res.lower() == "copy"):
             for i in final:
                 print(i)
+        elif(res.lower() == "exit"):
+            exit()
         else:
             with open("pass.txt","a") as f:
                 for i in final:
@@ -91,11 +101,14 @@ try:
                         for m in wordList:
                             for n in wordList:
                                 final.append(i+j+k+l+m+n)
+
         print("Do you want to save the file in seperate file or copy it manually[file/copy]: ")
         res = input("=>")
         if (res.lower() == "copy"):
             for i in final:
                 print(i)
+        elif(res.lower() == "exit"):
+            exit()
         else:
             with open("pass.txt","a") as f:
                 for i in final:
