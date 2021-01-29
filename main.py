@@ -1,4 +1,8 @@
 try:
+    def helper():
+        pass
+    def storyTeller():
+        pass
     def rate1(wordList):
         print("Do you want to save the file in seperate file or copy it manually[file/copy]: ")
         res = input("")
@@ -158,14 +162,25 @@ try:
                 exit()
             else:
                 print("Enter the valid thing")
+    print(''' _                _   _
+| |__  _ __ _   _| |_| |_ ___ _ __
+| '_ \\| '__| | | | __| __/ _ \\ '__|
+| |_) | |  | |_| | |_| ||  __/ |
+|_.__/|_|   \\__,_|\\__|\\__\\___|_|
 
+''')
     print("Welcome to brutter")
+    print("Credits: Paramsetti Manoj")
     print('Type "help" for the help or Type "about" to know more about the project')
     user = input("=>")
     user = user.lower()
     while(user != "exit"):
         if (user == "generate"):
             getter()
-        user = input("=>")
+        elif (user == "help"):
+            helper()
+        elif (user == "about"):
+            storyTeller()
+        user = input("=>").lower()
 except (KeyboardInterrupt):
     print('\nUse safe exit by typing "exit"')
