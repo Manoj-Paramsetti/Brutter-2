@@ -3,31 +3,88 @@ import os
 def rate1(wordList):
     print("Do you want to save the file in seperate file or copy it manually[file/copy]: ")
     res = input("")
+    if (res.lower() == "copy"):
+        pass
+    else:
+        with open("pass.txt","a") as f:
+            for i in wordList:
+                f.write(i)
+                f.write("\n")
 
 def rate2(wordList):
     final = []
     for i in wordList:
         for j in wordList:
             final.append(i+j)
-    print(final)
     print("Do you want to save the file in seperate file or copy it manually[file/copy]: ")
-    res = input("")
+    print("Default is copying in file")
+    res = input("=>")
+    if (res.lower() == "copy"):
+        pass
+    else:
+        with open("pass.txt","a") as f:
+            for i in wordList:
+                f.write(i)
+                f.write("\n")
 
 def rate3(wordList):
+    for i in wordList:
+        for j in wordList:
+            for k in wordList:
+                final.append(i+j+k)
     print("Do you want to save the file in seperate file or copy it manually[file/copy]: ")
-    res = input("")
+    res = input("=>")
+    if (res.lower() == "copy"):
+        pass
+    else:
+        with open("pass.txt","a") as f:
+            for i in wordList:
+                f.write(i)
+                f.write("\n")
 
 def rate4(wordList):
+    for i in wordList:
+        for j in wordList:
+            for k in wordList:
+                for l in wordList:
+                    final.append(i+j+k+l)
     print("Do you want to save the file in seperate file or copy it manually[file/copy]: ")
-    res = input("")
+    res = input("=>")
+    if (res.lower() == "copy"):
+        pass
+    else:
+        with open("pass.txt","a") as f:
+            for i in wordList:
+                f.write(i)
+                f.write("\n")
 
 def rate5(wordList):
+    for i in wordList:
+        for j in wordList:
+            for k in wordList:
+                for l in wordList:
+                    for m in wordList:
+                        final.append(i+j+k+l+m)
     print("Do you want to save the file in seperate file or copy it manually[file/copy]: ")
-    res = input("")
+    res = input("=>")
+    if (res.lower() == "copy"):
+        pass
+    else:
+        with open("pass.txt","a") as f:
+            for i in wordList:
+                f.write(i)
+                f.write("\n")
 
 def rate6(wordList):
+    for i in wordList:
+        for j in wordList:
+            for k in wordList:
+                for l in wordList:
+                    for m in wordList:
+                        for n in wordList:
+                            final.append(i+j+k+l+m+n)
     print("Do you want to save the file in seperate file or copy it manually[file/copy]: ")
-    res = input("")
+    res = input("=>")
 
 def generate(wordList):
     rate = input("Set the combination rate(1-6)\n=>")
