@@ -19,5 +19,5 @@ Raise an issue in my repository. Visit here https://github.com/Manoj-Paramsetti/
 Waiting to see the issues
 
 How to run this script?<br>
-run '''python3 main.py'''
+run <b>python3 main.py</b><br>
 Check my short tutorial on [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:6760927948032745473/ "Video")
