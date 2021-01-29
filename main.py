@@ -1,8 +1,49 @@
 try:
+    def caller():
+        user = input("=>")
+        user = user.lower()
+        while(user != "exit"):
+            if (user == "generate"):
+                getter()
+            elif (user == "help"):
+                helper()
+            elif (user == "about"):
+                storyTeller()
+            user = input("=>").lower()
     def helper():
-        pass
+        print('''\n\n\nCOMMANDS
+========
+
+about:
+ It will show a short discription of this script
+generate:
+ It will start your work
+ Further input is provide in square barcket. so, check that and give the write option to generate successful. I'm a lazy guy. so, not able to explain more.
+
+help:
+ It will show this message again so, Don't run it again. It's not bug, It's feautre
+
+ ''')
     def storyTeller():
-        pass
+        print('''\n\n\nBrutter is developed by Paramsetti Manoj. You can generate wordlist using this script.
+
+Disclamier:
+Use this script for educational purpose. The author doesn't claim any stupid thing which is done by you.
+
+How to use this program?
+It is having a command "help" which will explain you a lot about how to use this script. I'll provide a short tutorial after some days so have a touch on my github. visit my project and if you like this project then give a star. https://github.com/Manoj-Paramsetti/Brutter-2
+
+When the project is created?
+29 Jan 2021
+
+Whether it got license?
+Yeah, Check the LICENSE file. It is MIT license
+
+Have you got any issues?
+Report in my repo. Visit here https://github.com/Manoj-Paramsetti/Brutter-2/issues
+Waiting to see the issues
+
+''')
     def rate1(wordList):
         print("Do you want to save the file in seperate file or copy it manually[file/copy]: ")
         res = input("")
@@ -172,15 +213,6 @@ try:
     print("Welcome to brutter")
     print("Credits: Paramsetti Manoj")
     print('Type "help" for the help or Type "about" to know more about the project')
-    user = input("=>")
-    user = user.lower()
-    while(user != "exit"):
-        if (user == "generate"):
-            getter()
-        elif (user == "help"):
-            helper()
-        elif (user == "about"):
-            storyTeller()
-        user = input("=>").lower()
+    caller()
 except (KeyboardInterrupt):
     print('\nUse safe exit by typing "exit"')
