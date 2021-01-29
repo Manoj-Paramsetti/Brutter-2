@@ -1,38 +1,51 @@
 import os
 
-def rate1():
-    pass
+def rate1(wordList):
+    print("Do you want to save the file in seperate file or copy it manually[file/copy]: ")
+    res = input("")
 
-def rate2():
-    pass
+def rate2(wordList):
+    final = []
+    for i in wordList:
+        for j in wordList:
+            final.append(i+j)
+    print(final)
+    print("Do you want to save the file in seperate file or copy it manually[file/copy]: ")
+    res = input("")
 
-def rate3():
-    pass
+def rate3(wordList):
+    print("Do you want to save the file in seperate file or copy it manually[file/copy]: ")
+    res = input("")
 
-def rate4():
-    pass
+def rate4(wordList):
+    print("Do you want to save the file in seperate file or copy it manually[file/copy]: ")
+    res = input("")
 
-def rate5():
-    pass
+def rate5(wordList):
+    print("Do you want to save the file in seperate file or copy it manually[file/copy]: ")
+    res = input("")
 
-def rate6():
-    pass
+def rate6(wordList):
+    print("Do you want to save the file in seperate file or copy it manually[file/copy]: ")
+    res = input("")
 
 def generate(wordList):
     rate = input("Set the combination rate(1-6)\n=>")
-    if (rate = "1"):
-        rate1()
-    elif (rate = "2"):
-        rate2()
-    elif (rate = "3"):
-        rate3()
-    if (rate = "4"):
-        rate4()
-    if (rate = "5"):
-        rate5()
-    if (rate = "6"):
-        rate6()
-
+    if (rate == "1"):
+        rate1(wordList)
+    elif (rate == "2"):
+        rate2(wordList)
+    elif (rate == "3"):
+        rate3(wordList)
+    elif (rate == "4"):
+        rate4(wordList)
+    elif (rate == "5"):
+        rate5(wordList)
+    elif (rate == "6"):
+        rate6(wordList)
+    else:
+        print("Out of limit or invalid input")
+        generate(wordList)
 def getter():
     #intialization
     wordList=[]
