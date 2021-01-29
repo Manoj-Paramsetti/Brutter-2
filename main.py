@@ -1,10 +1,9 @@
-import os
-
 def rate1(wordList):
     print("Do you want to save the file in seperate file or copy it manually[file/copy]: ")
     res = input("")
     if (res.lower() == "copy"):
-        pass
+        for i in wordList:
+            print(i)
     else:
         with open("pass.txt","a") as f:
             for i in wordList:
@@ -20,7 +19,8 @@ def rate2(wordList):
     print("Default is copying in file")
     res = input("=>")
     if (res.lower() == "copy"):
-        pass
+        for i in wordList:
+            print(i)
     else:
         with open("pass.txt","a") as f:
             for i in wordList:
@@ -35,7 +35,8 @@ def rate3(wordList):
     print("Do you want to save the file in seperate file or copy it manually[file/copy]: ")
     res = input("=>")
     if (res.lower() == "copy"):
-        pass
+        for i in wordList:
+            print(i)
     else:
         with open("pass.txt","a") as f:
             for i in wordList:
@@ -51,7 +52,8 @@ def rate4(wordList):
     print("Do you want to save the file in seperate file or copy it manually[file/copy]: ")
     res = input("=>")
     if (res.lower() == "copy"):
-        pass
+        for i in wordList:
+            print(i)
     else:
         with open("pass.txt","a") as f:
             for i in wordList:
@@ -68,7 +70,8 @@ def rate5(wordList):
     print("Do you want to save the file in seperate file or copy it manually[file/copy]: ")
     res = input("=>")
     if (res.lower() == "copy"):
-        pass
+        for i in wordList:
+            print(i)
     else:
         with open("pass.txt","a") as f:
             for i in wordList:
@@ -85,6 +88,14 @@ def rate6(wordList):
                             final.append(i+j+k+l+m+n)
     print("Do you want to save the file in seperate file or copy it manually[file/copy]: ")
     res = input("=>")
+    if (res.lower() == "copy"):
+        for i in wordList:
+            print(i)
+    else:
+        with open("pass.txt","a") as f:
+            for i in wordList:
+                f.write(i)
+                f.write("\n")
 
 def generate(wordList):
     rate = input("Set the combination rate(1-6)\n=>")
