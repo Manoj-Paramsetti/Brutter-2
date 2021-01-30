@@ -12,7 +12,7 @@ When the project is created?<br>
 29 Jan 2021
 
 Whether it got a license?<br>
-Yeah, Check the LICENSE file. It is an MIT license
+Yeah, Check the LICENSE file. It is a MIT license
 
 Have you got any issues?<br>
 Raise an issue in my repository. Visit here https://github.com/Manoj-Paramsetti/Brutter-2/issues<br>
