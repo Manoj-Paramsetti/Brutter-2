@@ -18,5 +18,5 @@ Have you got any issues?<br>
 Raise an issue in my repository. Visit here https://github.com/Manoj-Paramsetti/Brutter-2/issues<br>
 
 How to run this script?<br>
-run <b>python3 main.py</b><br>
+Run <b>python3 main.py</b><br>
 Check my short tutorial on [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:6760927948032745473/ "Video")
